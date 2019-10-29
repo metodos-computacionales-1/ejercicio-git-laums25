@@ -16,6 +16,11 @@ int main(void){
     
     }
     
+    else{
+       std::cout<<"No pueden ser valores de un triangulo"<<std::endl;  
+    
+    }
+   
     return 0;
     
 }
