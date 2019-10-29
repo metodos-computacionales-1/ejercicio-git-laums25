@@ -11,6 +11,11 @@ int main(void){
     
     std::cout<<"Tres numeros para un triangulo:"<<" "<<N<<" "<<A<<" "<<B<<std::endl;
     
+    if ((N*N)+(A*A)==B*B){
+       std::cout<<"Pueden ser valores de un triangulo"<<std::endl;
+    
+    }
+    
     return 0;
     
 }
